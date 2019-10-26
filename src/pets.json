@@ -1,130 +1,130 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
+    "name": "Frieda Memorial Charity",
     "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Lisco, Alabama"
+    "age": 1000,
+    "breed": "Charity service for the needy",
+    "location": "Bengaluru, Karnataka"
   },
   {
     "id": 1,
-    "name": "Gina",
+    "name": "Gina Charity Services",
     "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Tooleville, West Virginia"
+    "age": 3500,
+    "breed": "Charity service for the needy",
+    "location": "Kolkata, West Bengal"
   },
   {
     "id": 2,
-    "name": "Collins",
+    "name": "Collins Charity",
     "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Freeburn, Idaho"
+    "age": 2250,
+    "breed": "To help the underprivileged",
+    "location": "Srinagar, Kashmir"
   },
   {
     "id": 3,
-    "name": "Melissa",
+    "name": "GodisOne Charity Services",
     "picture": "images/boxer.jpeg",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Camas, Pennsylvania"
+    "age": 2000,
+    "breed": "To help the unfortunate",
+    "location": "Delhi, New Delhi"
   },
   {
     "id": 4,
-    "name": "Jeanine",
+    "name": "Symphony Charities",
     "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Gerber, South Dakota"
+    "age": 2050,
+    "breed": "Charity service for the needy",
+    "location": "Jaipur, Rajasthan"
   },
   {
     "id": 5,
-    "name": "Elvia",
+    "name": "Ella Charity",
     "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Innsbrook, Illinois"
+    "age": 3250,
+    "breed": "To help the underprivileged",
+    "location": "Kasargod, Kerala"
   },
   {
     "id": 6,
-    "name": "Latisha",
+    "name": "M7E Education",
     "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Soudan, Louisiana"
+    "age": 3400,
+    "breed": "To help the underprivileged kids for school trips",
+    "location": "Mysore, Karnataka"
   },
   {
     "id": 7,
-    "name": "Coleman",
+    "name": "InnerPeace Education",
     "picture": "images/golden-retriever.jpeg",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Jacksonwald, Palau"
+    "age": 3560,
+    "breed": "To provide basic education for the needy",
+    "location": "Udupi, Karnataka"
   },
   {
     "id": 8,
-    "name": "Nichole",
+    "name": "Nichole Education",
     "picture": "images/french-bulldog.jpeg",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Honolulu, Hawaii"
+    "age": 2100,
+    "breed": "To provide basic education for the needy",
+    "location": "Chennai, Tamil Nadu"
   },
   {
     "id": 9,
-    "name": "Fran",
+    "name": "Fran Charity",
     "picture": "images/boxer.jpeg",
-    "age": 3,
-    "breed": "Boxer",
-    "location": "Matheny, Utah"
+    "age": 3000,
+    "breed":"To help the underprivileged",
+    "location": "Bhopal, Madhya Pradesh"
   },
   {
     "id": 10,
-    "name": "Leonor",
+    "name": "Leonard's Old age home",
     "picture": "images/boxer.jpeg",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Tyhee, Indiana"
+    "age": 2300,
+    "breed": "To help the elderly achieve peace",
+    "location": "Kurnool, Andhra Pradesh"
   },
   {
     "id": 11,
-    "name": "Dean",
+    "name": "The Great Old Age Home",
     "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Windsor, Montana"
+    "age": 3500,
+    "breed": "To provide for the elderly",
+    "location": "Bengaluru, Karnataka"
   },
   {
     "id": 12,
-    "name": "Stevenson",
+    "name": "Stevenson Adoption Centre",
     "picture": "images/french-bulldog.jpeg",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Kingstowne, Nevada"
+    "age": 3000,
+    "breed": "To provide the unfortunate children with basic needs",
+    "location": "Chennai, Tamil Nadu"
   },
   {
     "id": 13,
-    "name": "Kristina",
+    "name": "Kristina's Charity Service",
     "picture": "images/golden-retriever.jpeg",
-    "age": 4,
-    "breed": "Golden Retriever",
-    "location": "Sultana, Massachusetts"
+    "age": 4000,
+    "breed": "Charity service for the needy",
+    "location": "Palakkad, Kerala"
   },
   {
     "id": 14,
-    "name": "Ethel",
+    "name": "God's Old Age Home",
     "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Broadlands, Oregon"
+    "age": 2999,
+    "breed":"To provide for the elderly",
+    "location": "Kochi, Kerala"
   },
   {
     "id": 15,
-    "name": "Terry",
+    "name": "Terry Adoption centre",
     "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Dawn, Wisconsin"
+    "age": 2499,
+    "breed": "To provide the unfortunate children with basic needs",
+    "location": "Kolkata, West Bengal"
   }
 ]
