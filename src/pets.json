@@ -5,7 +5,8 @@
     "picture": "images/charity1.jpg",
     "age": 1000,
     "breed": "Charity service for the needy",
-    "location": "Bengaluru, Karnataka"
+    "location": "Bengaluru, Karnataka",
+    "link": "friedamemorial.html"
   },
   {
     "id": 1,
