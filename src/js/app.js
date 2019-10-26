@@ -15,6 +15,7 @@ App = {
         petTemplate.find('.pet-age').text(data[i].age);
         petTemplate.find('.pet-location').text(data[i].location);
         petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
+        petTemplate.find('.charity-link').attr('href',"../charitypages/"+data[i].link)
 
         petsRow.append(petTemplate.html());
       }
@@ -73,7 +74,7 @@ web3 = new Web3(App.web3Provider);
 
 App.contracts.Adoption.deployed().then(function(instance) {
   adoptionInstance = instance;
-
+    
   return adoptionInstance.getAdopters.call();
 }).then(function(adopters) {
   for (i = 0; i < adopters.length; i++) {
