@@ -123,6 +123,7 @@ web3.eth.getAccounts(function(error, accounts) {
     adoptionInstance = instance;
 
     // Execute adopt as a transaction by sending account
+    adoptionInstance.deposit(5);
     return adoptionInstance.adopt(petId, {from: account});
   }).then(function(result) {
     return App.markAdopted();
@@ -155,5 +156,11 @@ function addnew(){
     console.log(data);
   })
   $('.location').text(fs);
-
 }
+var CommunityContract = web3.eth.contract()
+$(".ethbutton").click(function() {
+  CommunityChest.deposit(1);
+});
+$(".ethout").click(function() {
+  CommunityChest.withdraw();
+});
