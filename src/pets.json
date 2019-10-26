@@ -36,7 +36,7 @@
     "name": "Symphony Charities",
     "picture": "images/charity1.jpg",
     "age": 2050,
-    "breed": "Charity service for the needy",
+    "breed": "Charity service",
     "location": "Jaipur, Rajasthan"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Ella Charity",
     "picture": "images/charity2.jpg",
     "age": 3250,
-    "breed": "To help the underprivileged",
+    "breed": "To help the overprivileged",
     "location": "Kasargod, Kerala"
   },
   {
@@ -52,7 +52,136 @@
     "name": "M7E Education",
     "picture": "images/charity3.jpg",
     "age": 3400,
-    "breed": "To help the underprivileged kids for school trips",
+    "breed": "To help the underprivileged kids",
     "location": "Mysore, Karnataka"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  }
+  ,
+  {
+    "id": 8,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
+  },
+  {
+    "id": 7,
+    "name": "Ella Charity",
+    "picture": "images/charity2.jpg",
+    "age": 3250,
+    "breed": "To help the overprivileged",
+    "location": "Kasargod, Kerala"
   }
 ]
