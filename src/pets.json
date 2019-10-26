@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Frieda Memorial Charity",
-    "picture": "images/scottish-terrier.jpeg",
+    "picture": "images/charity1.jpg",
     "age": 1000,
     "breed": "Charity service for the needy",
     "location": "Bengaluru, Karnataka"
@@ -10,7 +10,7 @@
   {
     "id": 1,
     "name": "Gina Charity Services",
-    "picture": "images/scottish-terrier.jpeg",
+    "picture": "images/charity2.jpg",
     "age": 3500,
     "breed": "Charity service for the needy",
     "location": "Kolkata, West Bengal"
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Collins Charity",
-    "picture": "images/french-bulldog.jpeg",
+    "picture": "images/charity3.jpg",
     "age": 2250,
     "breed": "To help the underprivileged",
     "location": "Srinagar, Kashmir"
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "GodisOne Charity Services",
-    "picture": "images/boxer.jpeg",
+    "picture": "images/charity4.jpg",
     "age": 2000,
     "breed": "To help the unfortunate",
     "location": "Delhi, New Delhi"
@@ -34,7 +34,7 @@
   {
     "id": 4,
     "name": "Symphony Charities",
-    "picture": "images/french-bulldog.jpeg",
+    "picture": "images/charity1.jpg",
     "age": 2050,
     "breed": "Charity service for the needy",
     "location": "Jaipur, Rajasthan"
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Ella Charity",
-    "picture": "images/french-bulldog.jpeg",
+    "picture": "images/charity2.jpg",
     "age": 3250,
     "breed": "To help the underprivileged",
     "location": "Kasargod, Kerala"
@@ -50,7 +50,7 @@
   {
     "id": 6,
     "name": "M7E Education",
-    "picture": "images/golden-retriever.jpeg",
+    "picture": "images/charity3.jpg",
     "age": 3400,
     "breed": "To help the underprivileged kids for school trips",
     "location": "Mysore, Karnataka"
