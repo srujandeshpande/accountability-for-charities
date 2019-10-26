@@ -85,6 +85,7 @@ App.contracts.Adoption.deployed().then(function(instance) {
       counter[i]++;
       $('.panel-pet').eq(i).find('.backers').append('\n'+adopters[i])
       $('.panel-pet').eq(i).find('.num-backers').text(counter[i]);
+      //$('.panel-pet').eq(i).find('.num-backers').text(event);
       //$('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true);
     }
   }
