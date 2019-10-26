@@ -80,11 +80,21 @@ App.contracts.Adoption.deployed().then(function(instance) {
     if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
       //var count = parseInt('0',10);
       if(!counter[i]){
-        counter[i] = 1;
+        counter[i] = 0;
       }
-      counter[i]++;
-      $('.panel-pet').eq(i).find('.backers').append('\n'+adopters[i])
-      $('.panel-pet').eq(i).find('.num-backers').text(counter[i]);
+      if(!amraised[i]){
+        amraised[i] = 0;
+      }
+      var ua = $('.panel-pet').eq(i).find('.useramount').val();
+      var ub = parseFloat(ua);
+      amraised[i] += ub;
+      if(ua){
+        counter[i]++;
+        $('.panel-pet').eq(i).find('.backers').append('\n'+adopters[i]);
+        $('.panel-pet').eq(i).find('.num-backers').text(counter[i]);
+        $('.panel-pet').eq(i).find('.raised').text(amraised[i]);
+      }
+      $('.panel-pet').eq(i).find('.useramount').val('');
       //$('.panel-pet').eq(i).find('.num-backers').text(event);
       //$('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true);
     }
@@ -123,8 +133,26 @@ web3.eth.getAccounts(function(error, accounts) {
 
 };
 var counter = [];
+var amraised = [];
 $(function() {
   $(window).load(function() {
     App.init();
   });
 });
+
+function addnew(){
+  var name = $('.name').text;
+  var purpose = $('.breed').text;
+  var amount = $('.age').text;
+  var location = $('.location').text;
+  const fs = require('fs')
+  fs.readFile('../pets.json', 'utf-8', (err, data) => {
+    if (err) throw err;
+
+    // Converting Raw Buffer to text
+    // data using tostring function.
+    console.log(data);
+  })
+  $('.location').text(fs);
+
+}
