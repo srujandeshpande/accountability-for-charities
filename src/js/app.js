@@ -79,24 +79,30 @@ App.contracts.Adoption.deployed().then(function(instance) {
 }).then(function(adopters) {
   for (i = 0; i < adopters.length; i++) {
     if (adopters[i] !== '0x0000000000000000000000000000000000000000') {
-      //var count = parseInt('0',10);
-      if(!counter[i]){
-        counter[i] = 0;
-      }
-      if(!amraised[i]){
-        amraised[i] = 0;
-      }
+      var back;
+      counter[i] = parseInt(readCookie('count'+i));
+      amraised[i] = parseInt(readCookie('raise'+i));
+      back = readCookie('backs'+i);
+      if(!counter[i]) counter[i] = 0;
+      if(!amraised[i]) amraised[i] = 0;
+      if(!back) back = "";
       var ua = $('.panel-pet').eq(i).find('.useramount').val();
-      var ub = parseFloat(ua);
-      amraised[i] += ub;
+      var ub = parseInt(ua,10);
+      amraised[i] = ub + amraised[i];
       if(ua){
         counter[i]++;
-        $('.panel-pet').eq(i).find('.backers').append('\n'+adopters[i]);
+        back = back+"\n"+adopters[i];
+        $('.panel-pet').eq(i).find('.backers').text(back);
         $('.panel-pet').eq(i).find('.num-backers').text(counter[i]);
         $('.panel-pet').eq(i).find('.raised').text(amraised[i]);
       }
       $('.panel-pet').eq(i).find('.useramount').val('');
-      //$('.panel-pet').eq(i).find('.num-backers').text(event);
+      eraseCookie('count'+i);
+      eraseCookie('raise'+i);
+      eraseCookie('backs'+i);
+      createCookie('count'+i,counter[i],10);
+      createCookie('raise'+i,amraised[i],10);
+      createCookie('backs'+i,back,10);
       //$('.panel-pet').eq(i).find('button').text('Success').attr('disabled', true);
     }
   }
@@ -156,4 +162,29 @@ function addnew(){
   })
   $('.location').text(fs);
 
+}
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
 }
